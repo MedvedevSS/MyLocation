@@ -15,6 +15,8 @@
 		DC05C84626CFB389000D65B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC05C84526CFB389000D65B7 /* Assets.xcassets */; };
 		DC05C84926CFB389000D65B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC05C84726CFB389000D65B7 /* LaunchScreen.storyboard */; };
 		DC0A17C626E8F74000B0327F /* hudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0A17C526E8F74000B0327F /* hudView.swift */; };
+		DC20B56C26FA0F3000D0CBF6 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC20B56B26FA0F3000D0CBF6 /* LocationCell.swift */; };
+		DC2801FD26F8988800DD3BB1 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2801FC26F8988800DD3BB1 /* LocationsViewController.swift */; };
 		DC3E619B26DD274700EF8E00 /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3E619A26DD274700EF8E00 /* LocationDetailsViewController.swift */; };
 		DC42333126EB438D0038469E /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC42332F26EB438D0038469E /* Location+CoreDataClass.swift */; };
 		DC42333226EB438D0038469E /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC42333026EB438D0038469E /* Location+CoreDataProperties.swift */; };
@@ -33,6 +35,8 @@
 		DC05C84826CFB389000D65B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC05C84A26CFB389000D65B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC0A17C526E8F74000B0327F /* hudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hudView.swift; sourceTree = "<group>"; };
+		DC20B56B26FA0F3000D0CBF6 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		DC2801FC26F8988800DD3BB1 /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
 		DC3E619A26DD274700EF8E00 /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
 		DC42332F26EB438D0038469E /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Location+CoreDataClass.swift"; path = "MyLocation/Location+CoreDataClass.swift"; sourceTree = "<group>"; };
 		DC42333026EB438D0038469E /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Location+CoreDataProperties.swift"; path = "MyLocation/Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -77,9 +81,11 @@
 				DC05C83D26CFB388000D65B7 /* CurrentLocationViewController.swift */,
 				DC3E619A26DD274700EF8E00 /* LocationDetailsViewController.swift */,
 				DCE6F40026DE54DB00C089B2 /* CategoryPickerViewController.swift */,
-				DC05C83F26CFB388000D65B7 /* Main.storyboard */,
+				DC2801FC26F8988800DD3BB1 /* LocationsViewController.swift */,
 				DC0A17C526E8F74000B0327F /* hudView.swift */,
 				DCA355B626EA57CC006E0FFD /* Functions.swift */,
+				DC20B56B26FA0F3000D0CBF6 /* LocationCell.swift */,
+				DC05C83F26CFB388000D65B7 /* Main.storyboard */,
 				DC05C84526CFB389000D65B7 /* Assets.xcassets */,
 				DC05C84726CFB389000D65B7 /* LaunchScreen.storyboard */,
 				DC05C84A26CFB389000D65B7 /* Info.plist */,
@@ -162,7 +168,9 @@
 				DC05C83E26CFB388000D65B7 /* CurrentLocationViewController.swift in Sources */,
 				DC05C83A26CFB388000D65B7 /* AppDelegate.swift in Sources */,
 				DCA355B726EA57CC006E0FFD /* Functions.swift in Sources */,
+				DC2801FD26F8988800DD3BB1 /* LocationsViewController.swift in Sources */,
 				DC42333226EB438D0038469E /* Location+CoreDataProperties.swift in Sources */,
+				DC20B56C26FA0F3000D0CBF6 /* LocationCell.swift in Sources */,
 				DC05C84426CFB388000D65B7 /* MyLocation.xcdatamodeld in Sources */,
 				DC05C83C26CFB388000D65B7 /* SceneDelegate.swift in Sources */,
 				DC42333126EB438D0038469E /* Location+CoreDataClass.swift in Sources */,
